@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fundiswa Sithole's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+            <p>AI/OPS Engineer</p>
+            <h1>Hi, I'm <span>Fundiswa</span><br>Khoza</h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A dedicated <i>Computer Systems Engineering</i> student at <b>Tshwane University of Technology</b>, I possess a robust foundation in various programming languages, including C++, Python3 (with a focus on robotics applications), Java, C#, HTML. My academic journey has honed not only my technical skills but also my analytical and problem-solving capabilities. I am particularly intrigued by the intersection of Artificial Intelligence (AI) and <b><i>IT Operations (AIOps), </b></i>where AI is leveraged to enhance IT operations and improve efficiency through automation, predictive analytics, and proactive issue resolution. I am seeking opportunities for a software engineering, Cyber Security, Data Analyst. I am excited to apply my skills in a dynamic setting where I can collaborate with like-minded professionals to drive technological advancements and deliver impactful solutions.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('certification')">Certifications</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>AI/OPS</span><br>BMC Software, AI For IT Operations</li>
+                        <li><span>Web Development</span><br>Optimizing, Django fullstack Dev</li>
+                        <li><span>CyberSecurity</span><br>Preventing cyberattacks or mitigating their impact</li>
+                        <li><span>Data Analysis</span><br>Collect, clean, and interpret data sets</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - Current</span><br>BMC Software, AI For IT Operations</li>
+                        <li><span>October 2023</span><br>Django Web Framework</li>
+                        <li><span>2020 - 2022</span><br>Hackathon, Mitigations</li>
+                        <li><span>2020</span><br>NetCampus, Software Tester</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>High School Specialization</span><br><br>COMPUTER APPLICATIONS TECHNOLOGY</li>
+                        <li><span>High School</span><br><br>SOPHUNGANE COMBINED SCHOOL</li>
+                        <li><span>Tertiary Education</span><br><br>TSHWANE UNIVERSITY OF TECHNOLOGY</li>
+                        <li><span>Course</span><br><br>COMPUTER SYSTEMS ENGINEERING</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="certification">
+                    <ul>
+                        <li><a href="https://coursera.org/share/e64aeb77028aac3b130925eb8f2dfdc9">AWS Cloud Practitioner Essentials</a></li>
+                        <li><a href="https://coursera.org/share/069807cadb69491cf41151001eeec7f4">Introduction to Machine Learning on AWS</a></li>
+                        <li><a href="https://coursera.org/share/f8f7b2b18d215986cad0409f32501b59">What is DataScience</a></li>
+                        <li><a href="https://coursera.org/share/9c4f2a4db537b2f60150ecc482a9cd76">Introduction to Computers And Operating Systems And Security</a></li>
+                        <li><a href="https://coursera.org/share/d75fafba92b78bdaa3fb66b48b45cf54">Foundation Of CyberSecurity</a></li>
+                        <li><a href="https://coursera.org/share/ba2f38ed3076bf04c22e22beaed2ba4b">Introduction to DevOps</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">What I Offer </h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <br>
+                <p>As a web developer, I specialize in building dynamic, secure, and scalable web applications using Django, a high-level Python web framework. Django enables rapid development with its clean, pragmatic design and built-in features like authentication, database management, and an admin interface. Whether it's creating responsive front-end designs or implementing robust back-end functionalities, I leverage Django to deliver efficient and maintainable solutions tailored to specific business needs.</p>
+                <a href="">Learn More</a>
+            </div>
+       
+
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>AI/OPS</h2>
+                <br>
+                <p>In the evolving landscape of IT, I focus on AIOps, where Artificial Intelligence is harnessed to optimize IT operations. By integrating machine learning, data analytics, and automation, I help organizations proactively manage and resolve issues, predict potential disruptions, and enhance overall system efficiency. My work in AIOps involves developing intelligent systems that reduce operational overhead, streamline workflows, and ensure seamless performance across complex IT environments.</p>
+                <a href="">Learn More</a>
+            </div>
+        
+
+            <div>
+                <i class="fa-solid fa-user-ninja"></i>
+                <h2>CyberSecurity</h2>
+                <br>
+                <p>With a strong focus on cybersecurity, I am dedicated to protecting digital assets and ensuring the integrity, confidentiality, and availability of information. My expertise spans across network security, application security, cloud security, and digital forensics. I implement cutting-edge security measures, conduct thorough vulnerability assessments, and design strategies to prevent cyber threats and mitigate risks. My goal is to safeguard systems from cyberattacks and ensure that organizations can operate securely in an increasingly digital world.</p>
+                <a href="">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="portfolio">
+    <div  class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+        
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>E-commerce</h3>
+                    <p>An eCommerce app created in Django for selling vegetables would serve as a comprehensive online marketplace tailored for farmers. It would allow users to browse a variety of fresh vegetables, view detailed product descriptions, and check real-time availability</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+             <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Penetration Testing</h3>
+                    <p>managing and mitigating security risks, ensuring adherence to regulatory requirements, and implementing effective security measures. Proficient in the latest cybersecurity practices and technologies, with hands-on experience in addressing vulnerabilities</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+             <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Artificial Intelligence</h3>
+                    <p> contributed to the development and optimization of AI-driven solutions and operational systems. My role involved analyzing and processing data to support machine learning models, improving system efficiency through automation, and troubleshooting technical issues.  Working with the MainFrame</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">Know More</a>
+
+    </div>
+
+
+</div>
+
+
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1>Get In Touch</h1>
+        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>     fundiswacomfort25@gmail.com</p>
+        <p><i class="fa-sharp fa-solid fa-phone"></i> (082) 257-5651</p>
+        <p><i class="fa-sharp fa-solid fa-phone"></i>  (061) 498-1882</p>
+
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://linkedin.com/in/fundiswa-comfort-3b11922a9
+"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/khozafundiswa/"><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fab   fa-twitter-square"></i></a>
+        </div>
+
+        <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+      </div>
+
+      
+
+    </div>
+  </div>
+
+  <div class="copyright">
+        <p>Copyright © Fundiswa Khoza. <i class="fa-solid fa-lock"></i></p>
+  </div>
+
+</div>
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (var tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        for (var tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
