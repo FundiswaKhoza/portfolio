@@ -320,7 +320,7 @@ nav ul li a:hover::after{
 
 .contact-left p:hover{
     color: #ff004f;
-    transform: translateY(-5px);
+    transform: translateY(-8px);
 }
 
 
