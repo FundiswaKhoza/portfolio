@@ -318,7 +318,7 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 
-.contact-left i:hover{
+.contact-left p:hover{
     color: #ff004f;
     transform: translateY(-5px);
 }
