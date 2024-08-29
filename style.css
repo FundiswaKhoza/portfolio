@@ -12,7 +12,7 @@ html{
 
 body{
     
-    background: #ADD8E6;
+    background: #D3D3D3;
     color: #fff;
 }
 #header{
@@ -361,7 +361,7 @@ nav .fas{
         font-size: 25px;
     }
     nav ul{
-        background:  #ADD8E6;
+        background: #ADD8E6;
         position: fixed;
         top: 0;
         right: -200px;
