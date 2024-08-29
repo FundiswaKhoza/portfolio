@@ -318,13 +318,11 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 
-.contact-left i{
-    text-decoration: none;
-    font-size: 30px;
-    margin-right: 15px;
-    color: #ababab;
-    transition: transform 0.5s;
+.contact-left i:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
 }
+
 
 .social-icons a:hover{
     color: #ff004f;
