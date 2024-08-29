@@ -411,7 +411,7 @@ nav .fas{
 }
 
 
-.sub-title {
+.sub-title:hover {
     font-size: 3em;
     font-weight: bold;
     background: linear-gradient(45deg, #ff0066, #00ccff, #66ff66);
