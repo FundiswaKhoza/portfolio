@@ -405,20 +405,7 @@ nav .fas{
     .contact-left{
         flex-basis: 100%;
     }
-    .copyright{.frame {
-        display: flex; /* Align items side-by-side */
-        gap: 20px; /* Space between iframes */
-        justify-content: center; /* Center iframes horizontally */
-        padding: 20px;
-        flex-wrap: wrap; /* Allow iframes to wrap to the next line if needed */
-    }
-    
-    iframe {
-        border: none;
-        width: 300px; /* Set a fixed width for iframes */
-        height: 200px; /* Set a fixed height for iframes */
-        flex-shrink: 0; /* Prevent iframes from shrinking */
-    }
+    .copyright{
         font-size: 14px;
     }
 }
